@@ -8,6 +8,8 @@ import fill from "./ArrayFunctions/fill.js";
 import flatten from "./ArrayFunctions/flatten.js";
 import flattenDeep from "./ArrayFunctions/flattenDeep.js"
 import fromPairs from "./ArrayFunctions/fromPairs.js"
+import head from "./ArrayFunctions/head.js"
+
 
 
 
@@ -21,6 +23,9 @@ var _ = {
     fill,
     flatten,
     flattenDeep,
-    fromPairs
+    fromPairs,
+    head
 }
 
+console.log(_.head([1,2,]));
+console.log(_.head([]));

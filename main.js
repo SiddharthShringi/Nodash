@@ -5,6 +5,8 @@ import difference from "./ArrayFunctions/difference.js";
 import drop from "./ArrayFunctions/drop.js";
 import dropRight from "./ArrayFunctions/dropRight.js";
 import fill from "./ArrayFunctions/fill.js";
+import flatten from "./ArrayFunctions/flatten.js";
+
 
 var _ = {
     chunk,
@@ -13,6 +15,7 @@ var _ = {
     difference,
     drop,
     dropRight,
-    fill
+    fill,
+    flatten
 }
 

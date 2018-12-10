@@ -6,6 +6,7 @@ import drop from "./ArrayFunctions/drop.js";
 import dropRight from "./ArrayFunctions/dropRight.js";
 import fill from "./ArrayFunctions/fill.js";
 import flatten from "./ArrayFunctions/flatten.js";
+import flattenDeep from "./ArrayFunctions/flattenDeep.js"
 
 
 var _ = {
@@ -16,6 +17,8 @@ var _ = {
     drop,
     dropRight,
     fill,
-    flatten
+    flatten,
+    flattenDeep
 }
 
+console.log(_.flattenDeep([1,2,[3,[4,[[[[5]]]]]]]));

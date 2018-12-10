@@ -1,5 +1,5 @@
 // Creates a slice of array with n elements dropped from the beginning.
-function drop(array, n=1) {
+export default function drop(array, n=1) {
     return array.slice(n);
 }
 // Example

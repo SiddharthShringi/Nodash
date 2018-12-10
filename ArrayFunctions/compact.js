@@ -1,6 +1,6 @@
 //Creates an array with all falsey values removed. 
 // The values false, null, 0, "", undefined, and NaN are falsey.
-function compact(array) {
+export default function compact(array) {
     return acc = array.filter(v => Boolean(v))
 }
 // Example

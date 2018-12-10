@@ -1,5 +1,5 @@
 //Creates a new array concatenating array with any additional arrays and/or values.
-function concat(...x) {
+export default function concat(...x) {
     return x.reduce((acc, value) => {
         if (Array.isArray(value)) {
             for(let elm of value) {

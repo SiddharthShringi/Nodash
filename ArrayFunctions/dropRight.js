@@ -1,5 +1,5 @@
 // Creates a slice of array with n elements dropped from the end.
-function dropRight(array, n= 1) {
+export default function dropRight(array, n= 1) {
     return array.slice(0,array.length-n);
 }
 // Example

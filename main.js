@@ -9,7 +9,8 @@ import flatten from "./ArrayFunctions/flatten.js";
 import flattenDeep from "./ArrayFunctions/flattenDeep.js"
 import fromPairs from "./ArrayFunctions/fromPairs.js"
 import head from "./ArrayFunctions/head.js"
-
+import tail from "./ArrayFunctions/tail.js"
+import indexOf from "./ArrayFunctions/indexOf.js"
 
 
 
@@ -24,8 +25,10 @@ var _ = {
     flatten,
     flattenDeep,
     fromPairs,
-    head
+    head,
+    tail,
+    indexOf
 }
 
-console.log(_.head([1,2,]));
-console.log(_.head([]));
+console.log(_.indexOf([1,2,3,4,2,1,3], 3, 3));
+console.log(_.indexOf([1,2,3,4,2,1,3], 9));

@@ -12,6 +12,8 @@ import head from "./ArrayFunctions/head.js"
 import tail from "./ArrayFunctions/tail.js"
 import indexOf from "./ArrayFunctions/indexOf.js"
 import join from "./ArrayFunctions/join.js"
+import last from "./ArrayFunctions/last.js"
+
 
 
 
@@ -30,8 +32,9 @@ var _ = {
     head,
     tail,
     indexOf,
-    join
+    join,
+    last
 }
 
-console.log(_.join(["India", "USA", "Pakistan", "UK"], ","));
-console.log(_.join(['Persistance', 'Lexical', 'Scope', 'Source', 'Data'], "_"))
+console.log(_.last(["India", "USA", "Pakistan", "UK"]));
+console.log(_.last(['Persistance', 'Lexical', 'Scope', 'Source', 'Data']));

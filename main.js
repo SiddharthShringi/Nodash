@@ -15,6 +15,8 @@ import join from "./ArrayFunctions/join.js"
 import last from "./ArrayFunctions/last.js"
 import lastIndexOf from "./ArrayFunctions/lastIndexOf.js"
 import reverse from "./ArrayFunctions/reverse.js"
+import without from "./ArrayFunctions/without.js"
+
 
 
 
@@ -38,8 +40,9 @@ var _ = {
     join,
     last,
     lastIndexOf,
-    reverse
+    reverse,
+    without
 }
 
-console.log(_.reverse(["India", "USA", "Pakistan", "UK"]));
-console.log(_.reverse(['Persistance', 'Lexical', 'Scope', 'Source', 'Data']));
+console.log(_.without(["India", "USA", "Pakistan", "UK"], "UK", "USA"));
+console.log(_.without(['Persistance', 'Lexical', 'Scope', 'Source', 'Data'], "Scope"));

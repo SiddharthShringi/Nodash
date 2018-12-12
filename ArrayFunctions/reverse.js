@@ -6,3 +6,8 @@ export default function reverse(array) {
         return acc;
     }, [])
 }
+// Example
+// console.log(_.reverse(["India", "USA", "Pakistan", "UK"]));
+// (4) ["UK", "Pakistan", "USA", "India"]
+// console.log(_.reverse(['Persistance', 'Lexical', 'Scope', 'Source', 'Data']));
+// (5) ["Data", "Source", "Scope", "Lexical", "Persistance"]

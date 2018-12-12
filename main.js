@@ -11,6 +11,8 @@ import fromPairs from "./ArrayFunctions/fromPairs.js"
 import head from "./ArrayFunctions/head.js"
 import tail from "./ArrayFunctions/tail.js"
 import indexOf from "./ArrayFunctions/indexOf.js"
+import join from "./ArrayFunctions/join.js"
+
 
 
 
@@ -27,8 +29,9 @@ var _ = {
     fromPairs,
     head,
     tail,
-    indexOf
+    indexOf,
+    join
 }
 
-console.log(_.indexOf([1,2,3,4,2,1,3], 3, 3));
-console.log(_.indexOf([1,2,3,4,2,1,3], 9));
+console.log(_.join(["India", "USA", "Pakistan", "UK"], ","));
+console.log(_.join(['Persistance', 'Lexical', 'Scope', 'Source', 'Data'], "_"))

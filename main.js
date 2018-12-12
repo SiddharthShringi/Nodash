@@ -13,6 +13,8 @@ import tail from "./ArrayFunctions/tail.js"
 import indexOf from "./ArrayFunctions/indexOf.js"
 import join from "./ArrayFunctions/join.js"
 import last from "./ArrayFunctions/last.js"
+import lastIndexOf from "./ArrayFunctions/lastIndexOf.js"
+
 
 
 
@@ -33,8 +35,9 @@ var _ = {
     tail,
     indexOf,
     join,
-    last
+    last,
+    lastIndexOf
 }
 
-console.log(_.last(["India", "USA", "Pakistan", "UK"]));
-console.log(_.last(['Persistance', 'Lexical', 'Scope', 'Source', 'Data']));
+console.log(_.lastIndexOf(["India", "USA", "Pakistan", "UK"], "Pakistan"));
+console.log(_.lastIndexOf(['Persistance', 'Lexical', 'Scope', 'Source', 'Data'], "Lexical"));
